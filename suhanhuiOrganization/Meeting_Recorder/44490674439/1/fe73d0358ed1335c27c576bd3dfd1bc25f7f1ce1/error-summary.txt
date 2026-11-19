@@ -1,0 +1,1 @@
+/Users/runner/work/Meeting_Recorder/Meeting_Recorder/MeetingRecorder.xcodeproj: error: Provisioning profile "appstore-com.qinglu.recorder.RecordingBroadcast-20261119084818830" doesn't match the entitlements file's value for the com.apple.security.application-groups entitlement. (in target 'MeetingRecorderBroadcast' from project 'MeetingRecorder')

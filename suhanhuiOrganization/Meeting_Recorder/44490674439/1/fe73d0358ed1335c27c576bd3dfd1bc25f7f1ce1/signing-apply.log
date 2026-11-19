@@ -1,0 +1,7 @@
+已更新 TargetAttributes 手动签名 target=2
+已更新签名配置：com.qinglu.recorder.RecordingBroadcast(2), com.qinglu.recorder(2)；手动签名 target=2；项目级清理=0；xcconfig=0
+手动签名校验通过：
+target=MeetingRecorder config=Debug bundleId=com.qinglu.recorder profileUuid=e07570a4-98c4-48dc-9b65-6f47bb977dbf profileName=appstore-com.qinglu.recorder-20261119084818338 team=85TACNRNUA identity=Apple Distribution: hanhui su (85TACNRNUA)
+target=MeetingRecorder config=Release bundleId=com.qinglu.recorder profileUuid=e07570a4-98c4-48dc-9b65-6f47bb977dbf profileName=appstore-com.qinglu.recorder-20261119084818338 team=85TACNRNUA identity=Apple Distribution: hanhui su (85TACNRNUA)
+target=MeetingRecorderBroadcast config=Debug bundleId=com.qinglu.recorder.RecordingBroadcast profileUuid=89cefecc-c0c0-4464-b828-e2590fef4ca7 profileName=appstore-com.qinglu.recorder.RecordingBroadcast-20261119084818830 team=85TACNRNUA identity=Apple Distribution: hanhui su (85TACNRNUA)
+target=MeetingRecorderBroadcast config=Release bundleId=com.qinglu.recorder.RecordingBroadcast profileUuid=89cefecc-c0c0-4464-b828-e2590fef4ca7 profileName=appstore-com.qinglu.recorder.RecordingBroadcast-20261119084818830 team=85TACNRNUA identity=Apple Distribution: hanhui su (85TACNRNUA)

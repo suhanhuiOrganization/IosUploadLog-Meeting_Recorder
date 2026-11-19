@@ -1,0 +1,87 @@
+Command line invocation:
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild archive -workspace /Users/runner/work/Meeting_Recorder/Meeting_Recorder/MeetingRecorder.xcworkspace -scheme MeetingRecorder -configuration Release -destination generic/platform=iOS -skipMacroValidation -skipPackagePluginValidation -archivePath /Users/runner/work/Meeting_Recorder/Meeting_Recorder/build.xcarchive
+
+Resolve Package Graph
+
+
+Resolved source packages:
+  SpeakerRecognitionKit: /Users/runner/work/Meeting_Recorder/Meeting_Recorder/SpeakerRecognitionKit
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (12 targets)
+    Target 'MeetingRecorder' in project 'MeetingRecorder'
+        ➜ Explicit dependency on target 'MeetingRecorderBroadcast' in project 'MeetingRecorder'
+        ➜ Implicit dependency on target 'Pods-MeetingRecorder' in project 'Pods' via file 'Pods_MeetingRecorder.framework' in build phase 'Link Binary'
+        ➜ Implicit dependency on target 'SubscriptionKit' in project 'Pods' via options '-framework SubscriptionKit' in build setting 'OTHER_LDFLAGS'
+        ➜ Explicit dependency on target 'SpeakerRecognitionKit-product' in project 'SpeakerRecognitionKit'
+    Target 'SpeakerRecognitionKit-product' in project 'SpeakerRecognitionKit'
+        ➜ Explicit dependency on target 'SpeakerRecognitionKit' in project 'SpeakerRecognitionKit'
+        ➜ Explicit dependency on target 'SpeakerRecognitionKit_SpeakerRecognitionKit' in project 'SpeakerRecognitionKit'
+    Target 'SpeakerRecognitionKit' in project 'SpeakerRecognitionKit'
+        ➜ Explicit dependency on target 'SpeakerRecognitionKit_SpeakerRecognitionKit' in project 'SpeakerRecognitionKit'
+    Target 'SpeakerRecognitionKit_SpeakerRecognitionKit' in project 'SpeakerRecognitionKit' (no dependencies)
+    Target 'Pods-MeetingRecorder' in project 'Pods'
+        ➜ Explicit dependency on target 'SubscriptionKit' in project 'Pods'
+        ➜ Explicit dependency on target 'UMAPM' in project 'Pods'
+        ➜ Explicit dependency on target 'UMCommon' in project 'Pods'
+        ➜ Explicit dependency on target 'UMDevice' in project 'Pods'
+        ➜ Explicit dependency on target 'lame' in project 'Pods'
+    Target 'lame' in project 'Pods'
+        ➜ Explicit dependency on target 'lame-apple_privacy' in project 'Pods'
+    Target 'lame-apple_privacy' in project 'Pods' (no dependencies)
+    Target 'SubscriptionKit' in project 'Pods'
+        ➜ Explicit dependency on target 'UMAPM' in project 'Pods'
+        ➜ Explicit dependency on target 'UMCommon' in project 'Pods'
+        ➜ Explicit dependency on target 'UMDevice' in project 'Pods'
+    Target 'UMAPM' in project 'Pods'
+        ➜ Explicit dependency on target 'UMCommon' in project 'Pods'
+    Target 'UMCommon' in project 'Pods'
+        ➜ Explicit dependency on target 'UMDevice' in project 'Pods'
+    Target 'UMDevice' in project 'Pods' (no dependencies)
+    Target 'MeetingRecorderBroadcast' in project 'MeetingRecorder' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_27.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode_27.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode_27.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -x objective-c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/momc --dry-run --action generate --swift-version 5.9 --sdkroot /Applications/Xcode_27.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk --iphoneos-deployment-target 16.0 --module MeetingRecorder /Users/runner/work/Meeting_Recorder/Meeting_Recorder/Sources/Data/Persistence/MeetingRecorder.xcdatamodeld /Users/runner/Library/Developer/Xcode/DerivedData/MeetingRecorder-dcsvetgqgquondcdurvzxbvcgfru/Build/Intermediates.noindex/ArchiveIntermediates/MeetingRecorder/IntermediateBuildFilesPath/MeetingRecorder.build/Release-iphoneos/MeetingRecorder.build/DerivedSources/CoreDataGenerated/MeetingRecorder
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/runner/work/Meeting_Recorder/Meeting_Recorder/Sources/Resources/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -V
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+Build description signature: 93be2873f791f77ecc103865885d9a2a
+Build description path: /Users/runner/Library/Developer/Xcode/DerivedData/MeetingRecorder-dcsvetgqgquondcdurvzxbvcgfru/Build/Intermediates.noindex/ArchiveIntermediates/MeetingRecorder/IntermediateBuildFilesPath/XCBuildData/93be2873f791f77ecc103865885d9a2a.xcbuilddata
+/Users/runner/work/Meeting_Recorder/Meeting_Recorder/MeetingRecorder.xcodeproj: error: Provisioning profile "appstore-com.qinglu.recorder-20261119084818338" doesn't support the group.com.qinglu.recorder App Group. (in target 'MeetingRecorder' from project 'MeetingRecorder')
+/Users/runner/work/Meeting_Recorder/Meeting_Recorder/MeetingRecorder.xcodeproj: error: Provisioning profile "appstore-com.qinglu.recorder-20261119084818338" doesn't match the entitlements file's value for the com.apple.security.application-groups entitlement. (in target 'MeetingRecorder' from project 'MeetingRecorder')
+/Users/runner/work/Meeting_Recorder/Meeting_Recorder/MeetingRecorder.xcodeproj: error: Provisioning profile "appstore-com.qinglu.recorder.RecordingBroadcast-20261119084818830" doesn't support the group.com.qinglu.recorder App Group. (in target 'MeetingRecorderBroadcast' from project 'MeetingRecorder')
+/Users/runner/work/Meeting_Recorder/Meeting_Recorder/MeetingRecorder.xcodeproj: error: Provisioning profile "appstore-com.qinglu.recorder.RecordingBroadcast-20261119084818830" doesn't match the entitlements file's value for the com.apple.security.application-groups entitlement. (in target 'MeetingRecorderBroadcast' from project 'MeetingRecorder')
+** ARCHIVE FAILED **
+
+
+The following build commands failed:
+	Archiving workspace MeetingRecorder with scheme MeetingRecorder
+(1 failure)
