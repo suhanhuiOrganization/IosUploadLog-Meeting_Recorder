@@ -1,0 +1,25 @@
+Command line invocation:
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild -list -workspace /Users/runner/work/Meeting_Recorder/Meeting_Recorder/MeetingRecorder.xcworkspace
+
+Resolve Package Graph
+
+
+Resolved source packages:
+  SpeakerRecognitionKit: /Users/runner/work/Meeting_Recorder/Meeting_Recorder/SpeakerRecognitionKit
+
+Information about workspace "MeetingRecorder":
+    Schemes:
+        lame
+        lame-apple_privacy
+        MeetingRecorder
+        MeetingRecorder_Test
+        MeetingRecorderBroadcast
+        MeetingRecorderBroadcast_Test
+        Pods-MeetingRecorder
+        Pods-MeetingRecorder_Test
+        SpeakerRecognitionKit
+        SubscriptionKit
+        UMAPM
+        UMCommon
+        UMDevice
+

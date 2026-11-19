@@ -1,0 +1,13 @@
+Running altool at path '/Applications/Xcode_27.1.app/Contents/SharedFrameworks/ContentDelivery.framework/Resources/altool'...
+
+2026-11-19 08:59:00.627 ERROR: [ContentDelivery.Uploader.79AF0DD440] 
+=======================================
+UPLOAD FAILED with 1 error
+=======================================
+2026-11-19 08:59:00.629 ERROR: [altool.79AF0DD440] Invalid Info.plist value. The Info.plist key UIBackgroundModes contains an invalid value: 'picture-in-picture'. For more information, refer to the Information Property List Key Reference. (90112) n/a (ID: MEOEMQCCLAHV6GXHAJXY3KS3PQ)
+   NSUnderlyingError : A server error occurred. (-19241)
+      code : 90112
+      description : Invalid Info.plist value. The Info.plist key UIBackgroundModes contains an invalid value: 'picture-in-picture'. For more information, refer to the Information Property List Key Reference.
+   iris-code : 90112
+2026-11-19 08:59:00.629 ERROR: [altool.main] ExitFailure (31)
+Failed to upload package.

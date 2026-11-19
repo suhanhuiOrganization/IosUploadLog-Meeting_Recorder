@@ -1,0 +1,6 @@
+Bundle ID 资源匹配：com.qinglu.recorder -> B754VHG27X
+证书查询结果：1 个 [ 'DISTRIBUTION' ]
+签名 profile 新建：bundleId=com.qinglu.recorder profile=appstore-com.qinglu.recorder-20261119085529692 [id=8L3T4Y7U7P] uuid=6db2378c-1798-4f6b-94ad-cb04c2b8fbf5
+Bundle ID 资源匹配：com.qinglu.recorder.RecordingBroadcast -> 4NQCBJH8YP
+签名 profile 新建：bundleId=com.qinglu.recorder.RecordingBroadcast profile=appstore-com.qinglu.recorder.RecordingBroadcast-20261119085530273 [id=43HBR34435] uuid=ad30fb72-54e7-4f95-b540-b1b5c8c7382f
+签名 bundleIds: com.qinglu.recorder(appstoreconnect, uuid=6db2378c-1798-4f6b-94ad-cb04c2b8fbf5), com.qinglu.recorder.RecordingBroadcast(appstoreconnect, uuid=ad30fb72-54e7-4f95-b540-b1b5c8c7382f)

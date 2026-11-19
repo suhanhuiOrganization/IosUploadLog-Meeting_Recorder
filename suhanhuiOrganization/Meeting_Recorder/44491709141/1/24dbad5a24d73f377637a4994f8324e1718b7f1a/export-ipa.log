@@ -1,0 +1,4 @@
+2026-11-19 08:57:42.678 xcodebuild[9985:32186] [MT] IDEDistribution: -[IDEDistributionLogging _createLoggingBundleAtPath:]: Created bundle at path "/var/folders/5n/5t77mfb93jd7q8v9s6f0dn0m0000gn/T/MeetingRecorder_2026-11-19_08-57-42.678.xcdistributionlogs".
+Exported MeetingRecorder to: /Users/runner/work/Meeting_Recorder/Meeting_Recorder/MeetingRecorder.ipa
+** EXPORT SUCCEEDED **
+
